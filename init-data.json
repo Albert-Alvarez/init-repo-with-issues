@@ -1,0 +1,52 @@
+{
+    "project": {
+        "name": "MASB",
+        "body": "Project board de la asignatura de MASB",
+        "columns": {
+            "toDo": {},
+            "inProgress": {},
+            "done": {}
+        }
+    },
+    "milestones": [
+        {
+            "title": "Sprint 2",
+            "due_on": "2020-02-20T00:00:00+01:00"
+        },
+        {
+            "title": "Sprint 1",
+            "due_on": "2020-02-01T00:00:00+01:00"
+        }
+    ],
+    "labels": [
+        {
+            "name": "lbl1",
+            "color": "fcba03",
+            "description": "desc1"
+        },
+        {
+            "name": "lbl2",
+            "color": "05e8e4",
+            "description": "desc1"
+        }
+    ],
+    "issues": [
+        {
+            "card": {},
+            "title": "ttl1",
+            "body": "bdy1",
+            "milestone": "Sprint 1",
+            "labels": [
+                "lbl1",
+                "lbl2"
+            ]
+        },
+        {
+            "card": {},
+            "title": "ttl2",
+            "body": "bdy2",
+            "milestone": "Sprint 2",
+            "labels": ["lbl2"]
+        }
+    ]
+}
